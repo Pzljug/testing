@@ -4,3 +4,9 @@
 /.settings/
 /.classpath
 .svn/
+*.DS_Store
+Libs/TempTestCase*.groovy
+Libs/TempTestSuite*.groovy
+bin/lib/TempTestCase*
+bin/lib/TempTestSuite*
+Reports/
