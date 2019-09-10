@@ -16,12 +16,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Admin Dashboard  MHCDEV/a_EXTREMELY DANGEROUS'))
 
 WebUI.waitForElementClickable(findTestObject('Page_Admin EXTREMELY DANGEROUS  MHCDEV/i_EXTREMELY DANGEROUS_danger-icon'), 
-    5)
+    10)
 
 WebUI.click(findTestObject('Object Repository/Page_Admin EXTREMELY DANGEROUS  MHCDEV/i_EXTREMELY DANGEROUS_danger-icon'))
 
@@ -29,7 +29,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Admin EXTREMELY DANGEROUS  ACEM
 
 WebUI.click(findTestObject('Page_Admin EXTREMELY DANGEROUS  ACEMAPP/a_General Member Test'))
 
-WebUI.waitForElementClickable(findTestObject('Page_General Member Tester  MHCDEV/span_Brian ClauserAccount Menu'), 5)
+WebUI.waitForElementClickable(findTestObject('Page_General Member Tester  MHCDEV/span_Brian ClauserAccount Menu'), 10)
 
 WebUI.click(findTestObject('Object Repository/Page_General Member Tester  MHCDEV/span_Brian ClauserAccount Menu'))
 
