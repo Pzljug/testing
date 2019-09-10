@@ -22,6 +22,8 @@ def driver = DriverFactory.getWebDriver()
 
 String baseUrl = 'https://www.katalon.com/'
 
+WebUI.maximizeWindow()
+
 //selenium = new WebDriverBackedSelenium(driver, baseUrl)
 WebUI.click(findTestObject('Page_Login  MHCDEV/input_Email Address_login_email'))
 
@@ -34,5 +36,4 @@ WebUI.setEncryptedText(findTestObject('Page_Login  MHCDEV/input_Password_login_p
 WebUI.click(findTestObject('Page_Login  MHCDEV/button_Login'))
 
 WebUI.waitForPageLoad(30000)
-
 

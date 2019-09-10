@@ -1,89 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Marieta Marcial (marietamarcialphoenixedu)</name>
+   <name>i_EXTREMELY DANGEROUS_danger-icon</name>
    <tag></tag>
-   <elementGuidId>37e87b6f-2c27-49ac-b6f3-c745762589f3</elementGuidId>
+   <elementGuidId>86910bee-cbf1-4f03-bae2-5f24f5308395</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>i#danger-icon</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Marieta Marcial (marieta.marcial@phoenix.edu)' or . = 'Marieta Marcial (marieta.marcial@phoenix.edu)')]</value>
+         <value>id(&quot;danger-icon&quot;)[count(. | //i[@class = 'fab fa-wolf-pack-battalion text-warning' and @id = 'danger-icon']) = count(//i[@class = 'fab fa-wolf-pack-battalion text-warning' and @id = 'danger-icon'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+         <value>//i[@id='danger-icon']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pull-left</value>
+      <value>fab fa-wolf-pack-battalion text-warning</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Marieta Marcial (marieta.marcial@phoenix.edu)</value>
+      <value>danger-icon</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-member_id-01-results&quot;)/li[@class=&quot;select2-results__option select2-results__option--highlighted&quot;]/span[@class=&quot;pull-left&quot;]</value>
+      <value>id(&quot;danger-icon&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@id='danger-icon']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+      <value>//div[@id='super-danger-warning']/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXTREMELY DANGEROUS'])[1]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing'])[1]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Faculty (fnponlinefaculty@example.com)'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click To Proceed'])[1]/preceding::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Student (fnponlinestudent@example.com)'])[1]/preceding::span[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dangerous Items'])[1]/preceding::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul/li/span</value>
+      <value>//div[2]/i</value>
    </webElementXpaths>
 </WebElementEntity>

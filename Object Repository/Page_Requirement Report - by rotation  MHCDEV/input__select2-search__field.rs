@@ -3,22 +3,18 @@
    <description></description>
    <name>input__select2-search__field</name>
    <tag></tag>
-   <elementGuidId>a377cd02-fac3-4fad-af6d-fa65d4470029</elementGuidId>
+   <elementGuidId>36cb5a2d-2ea3-4012-969e-80c88bb5f954</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@class = 'select2-search__field' and @type = 'search' and @role = 'textbox']</value>
+         <value>id(&quot;filtersForm&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;select2 select2-container select2-container--bootstrap select2-container--below select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--multiple&quot;]/ul[@class=&quot;select2-selection__rendered&quot;]/li[@class=&quot;select2-search select2-search--inline&quot;]/input[@class=&quot;select2-search__field&quot;][count(. | //input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '-1' and @autocomplete = 'off' and @autocorrect = 'off' and @autocapitalize = 'off' and @spellcheck = 'false' and @role = 'textbox']) = count(//input[@class = 'select2-search__field' and @type = 'search' and @tabindex = '-1' and @autocomplete = 'off' and @autocorrect = 'off' and @autocapitalize = 'off' and @spellcheck = 'false' and @role = 'textbox'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@type='search']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span#select2-member_id-yb-container</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,35 +38,35 @@
       <value>search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>0</value>
+      <value>-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>spellcheck</name>
       <type>Main</type>
@@ -84,11 +80,11 @@
       <value>textbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;b_chrome o_windows&quot;]/body[@class=&quot;fixed-header-body&quot;]/span[@class=&quot;select2-container select2-container--bootstrap select2-container--open&quot;]/span[@class=&quot;select2-dropdown select2-dropdown--below&quot;]/span[@class=&quot;select2-search select2-search--dropdown&quot;]/input[@class=&quot;select2-search__field&quot;]</value>
+      <value>id(&quot;filtersForm&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;select2 select2-container select2-container--bootstrap select2-container--below select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--multiple&quot;]/ul[@class=&quot;select2-selection__rendered&quot;]/li[@class=&quot;select2-search select2-search--inline&quot;]/input[@class=&quot;select2-search__field&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -100,29 +96,29 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::input[1]</value>
+      <value>//form[@id='filtersForm']/div/div/div/span/span/span/ul/li[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter 2 or more characters'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//li[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

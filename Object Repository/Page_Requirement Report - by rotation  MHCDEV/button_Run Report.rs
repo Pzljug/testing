@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Marieta Marcial (marietamarcialphoenixedu)</name>
+   <name>button_Run Report</name>
    <tag></tag>
-   <elementGuidId>37e87b6f-2c27-49ac-b6f3-c745762589f3</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Marieta Marcial (marieta.marcial@phoenix.edu)' or . = 'Marieta Marcial (marieta.marcial@phoenix.edu)')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='select2-member_id-01-results']/li/span</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>e1d71dea-52a3-4d14-a7df-004f71f24a17</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,69 +11,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pull-left</value>
+      <value>btn btn-success</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submitButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Marieta Marcial (marieta.marcial@phoenix.edu)</value>
+      <value>Run Report</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-member_id-01-results&quot;)/li[@class=&quot;select2-results__option select2-results__option--highlighted&quot;]/span[@class=&quot;pull-left&quot;]</value>
+      <value>id(&quot;submitButton&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='submitButton']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+      <value>//div[@id='wrapper']/div[4]/div/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[5]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Faculty (fnponlinefaculty@example.com)'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Student (fnponlinestudent@example.com)'])[1]/preceding::span[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate CSV'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul/li/span</value>
+      <value>//div[4]/div/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Marieta Marcial (marietamarcialphoenixedu)</name>
+   <name>span_Ellen Mastrangelo (ellenmastrangelouhhospitalsorg)</name>
    <tag></tag>
-   <elementGuidId>37e87b6f-2c27-49ac-b6f3-c745762589f3</elementGuidId>
+   <elementGuidId>41ffffae-2e94-4458-bddf-d74ac20cf31d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Marieta Marcial (marieta.marcial@phoenix.edu)' or . = 'Marieta Marcial (marieta.marcial@phoenix.edu)')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+         <value>//*[(text() = 'Ellen Mastrangelo (ellen.mastrangelo@uhhospitals.org)' or . = 'Ellen Mastrangelo (ellen.mastrangelo@uhhospitals.org)')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Marieta Marcial (marieta.marcial@phoenix.edu)</value>
+      <value>Ellen Mastrangelo (ellen.mastrangelo@uhhospitals.org)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

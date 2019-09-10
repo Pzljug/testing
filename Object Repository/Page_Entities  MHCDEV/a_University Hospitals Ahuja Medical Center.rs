@@ -1,89 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Marieta Marcial (marietamarcialphoenixedu)</name>
+   <name>a_University Hospitals Ahuja Medical Center</name>
    <tag></tag>
-   <elementGuidId>37e87b6f-2c27-49ac-b6f3-c745762589f3</elementGuidId>
+   <elementGuidId>814c522e-bf53-4456-9408-c741eeb05ac1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Marieta Marcial (marieta.marcial@phoenix.edu)' or . = 'Marieta Marcial (marieta.marcial@phoenix.edu)')]</value>
+         <key>CSS</key>
+         <value>#wrapper > div:nth-child(3) > div:nth-child(11) > div.panel-heading > div > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+         <value>//div[@id='wrapper']/div[2]/div[2]/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>pull-left</value>
+      <value>/entity/site/2418</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Marieta Marcial (marieta.marcial@phoenix.edu)</value>
+      <value>University Hospitals Ahuja Medical Center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-member_id-01-results&quot;)/li[@class=&quot;select2-results__option select2-results__option--highlighted&quot;]/span[@class=&quot;pull-left&quot;]</value>
+      <value>id(&quot;wrapper&quot;)/div[2]/div[@class=&quot;panel panel-sitespecific&quot;]/div[@class=&quot;panel-heading&quot;]/div[@class=&quot;panel-title&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+      <value>//div[@id='wrapper']/div[2]/div[2]/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'University Hospitals Ahuja Medical Center')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clinical Sites'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lakeside 60'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Faculty (fnponlinefaculty@example.com)'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Affiliation'])[2]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Student (fnponlinestudent@example.com)'])[1]/preceding::span[8]</value>
+      <value>//a[contains(@href, '/entity/site/2418')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul/li/span</value>
+      <value>//div[2]/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

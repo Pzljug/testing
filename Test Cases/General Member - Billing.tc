@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check for lack of Panel.</description>
+   <name>General Member - Billing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f23da61-e83d-43b8-bf79-a6824ead5b12</testCaseGuid>
+</TestCaseEntity>

@@ -1,89 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Marieta Marcial (marietamarcialphoenixedu)</name>
+   <name>a_General Member Test</name>
    <tag></tag>
-   <elementGuidId>37e87b6f-2c27-49ac-b6f3-c745762589f3</elementGuidId>
+   <elementGuidId>94d6b2b1-ff9a-4c5b-aa73-678c92f73591</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Marieta Marcial (marieta.marcial@phoenix.edu)' or . = 'Marieta Marcial (marieta.marcial@phoenix.edu)')]</value>
+         <value>//*[@href = '/admin/dangerous/general-test' and (text() = 'General Member Test' or . = 'General Member Test')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+         <value>//a[contains(text(),'General Member Test')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/dangerous/general-test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pull-left</value>
+      <value>btn btn-warning btn-block</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Marieta Marcial (marieta.marcial@phoenix.edu)</value>
+      <value>General Member Test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-member_id-01-results&quot;)/li[@class=&quot;select2-results__option select2-results__option--highlighted&quot;]/span[@class=&quot;pull-left&quot;]</value>
+      <value>id(&quot;super-danger-stuff&quot;)/div[@class=&quot;panel panel-sitespecific&quot;]/table[@class=&quot;table table-striped&quot;]/tbody[1]/tr[5]/td[1]/a[@class=&quot;btn btn-warning btn-block&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='select2-member_id-01-results']/li/span</value>
+      <value>//div[@id='super-danger-stuff']/div/table/tbody/tr[5]/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'General Member Test')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Asana Sync'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simple HAProxy Stats Display'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Faculty (fnponlinefaculty@example.com)'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Onceler Output'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marieta Marcial-Student (fnponlinestudent@example.com)'])[1]/preceding::span[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrative Review'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/dangerous/general-test')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul/li/span</value>
+      <value>//tr[5]/td/a</value>
    </webElementXpaths>
 </WebElementEntity>
