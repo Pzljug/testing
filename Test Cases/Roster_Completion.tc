@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add pop-up notice when marking roster as complete without any students
+.
+Roster toggle is more visible</description>
+   <name>Roster_Completion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b92a49e-d1c3-41fa-8f3c-fc8bd2ec118b</testCaseGuid>
+</TestCaseEntity>
