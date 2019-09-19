@@ -16,10 +16,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Log In</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>21c6509a-f145-4a36-8e7b-2bbca8851659</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CURE</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

@@ -73,21 +73,32 @@ WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHC
 WebUI.sendKeys(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input_entityschool210rotationsaddqAcereqlevel22122oldTabindex0_1568833743333_select2-search__field'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/div_Start Date'))
+if (browserName == "FIREFOX_DRIVER"){
+	WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'), '2019-09-20')
+}else{
+WebUI.sendKeys(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'), Keys.chord('09-20-2019', Keys.ENTER, Keys.TAB))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/th_Today'))
+//WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/div_Start Date'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'), '09/18/2019')
+//WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/div_End Date'))
+//WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/th_Today'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_end'))
+if (browserName == "FIREFOX_DRIVER"){
+	WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_end'), '2019-09-20')
+}else{
+WebUI.sendKeys(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_end'), Keys.chord('09-20-2019', Keys.ENTER, Keys.TAB))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/th_Today'))
+//WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'), '09/18/2019')
 
-WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'), '09/18/2019')
+//WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/div_End Date'))
+
+//WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_end'))
+
+//WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/th_Today'))
+
+//WebUI.setText(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/input__rotation_date_start'), '09/18/2019')
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Rotation 175291  MHCDEV/div_Days of the Week'))
 

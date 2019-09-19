@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>DEV</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://mhcdev.com/login'</initValue>
-      <name>URL</name>
+      <initValue>'https://mhcdev.com'</initValue>
+      <name>baseurl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

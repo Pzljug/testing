@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://mhcdev.com/admin')
+WebUI.navigateToUrl(GlobalVariable.baseurl)
 
 WebUI.click(findTestObject('Page_Admin Misc Functions  MHCDEV/a_Misc Functions'))
 
