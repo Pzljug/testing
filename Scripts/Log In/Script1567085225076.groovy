@@ -16,14 +16,14 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.baseurl + "/login")
+WebUI.openBrowser(GlobalVariable.baseurl + '/login')
 
 // Use setText for Firefox and sendKeys for Chrome
 browserName = DriverFactory.getExecutedBrowser().getName()
+
 def driver = DriverFactory.getWebDriver()
 
 //String baseUrl = 'https://www.katalon.com/'
-
 WebUI.maximizeWindow()
 
 //selenium = new WebDriverBackedSelenium(driver, baseUrl)
