@@ -10,6 +10,7 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -34,26 +35,40 @@ WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('scrapping/Page_Sherry McMurtrey  MHCDEV/a_Associations'))
 
-WebDriver driver = Driver.Factory.getWebDriver()
+WebUI.acceptAlert()
 
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+//Extract data from table
+List<String> page1 = new ArrayList()
+List<String> page2 = new ArrayList()
+List<String> page3 = new ArrayList()
+List<String> page4 = new ArrayList()
+List<String> page5 = new ArrayList()
+List<String> page6 = new ArrayList()
 
-List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+List<ArrayList> lArray = new ArrayList<ArrayList>(); //Creates a List of Lists
+lArray.add(page1)
+lArray.add(page2)
+lArray.add(page3)
+lArray.add(page4)
+lArray.add(page5)
+lArray.add(page6)
 
-int rows_count = rows_table.size()
+myObject = new TestObject("myObject")
+// Loop paginate
+pagi = 1 // paginate start from 1
+index = 0
+// list for paginate buttons
+List<String> list2 = new ArrayList<>()
+WebDriver driver2 = DriverFactory.getWebDriver()
+'To locate paginate buttons'
+list2 = driver2.findElements(By.xpath("//a[containes(@class, 'paginate_button')]"))
+println list2.size()
+count = list2.size() - 2 // remove precious and next from the count
+WebUI.closeBrowser()
 
-'Loop'
-Loop: for (int row = 0; row < row_count; row++) {
-    List<WebElement> Columns_row = rows_table.get(row).findElements(By.tagName('td'))
-
-    int columns_count = Columns_row.size()
-
-    println((('Number of cells In Row ' + row) + ' are ') + columns_count)
-
-    for (int column = 0; column < columns_count; column++) {
-        String celltext = Columns_row.get(column).getText()
-
-        println((((('Cell Value Of row number ' + row) + ' and column number ') + column) + ' Is ') + celltext)
-    }
+// loop paginate
+for (int i = 0; 9 < count; i++) {
+	
+	WebUI.openBrowser('')
+	WebUI.	
 }
-
